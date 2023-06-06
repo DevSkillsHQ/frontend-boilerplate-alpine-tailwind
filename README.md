@@ -18,6 +18,7 @@ A backbone for your coding challenge.
 ## Getting started
 
 ```
+npm run build # to build the app
 npm run start # to start the app
 ```
 
