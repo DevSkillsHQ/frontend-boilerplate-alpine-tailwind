@@ -1,17 +1,22 @@
 {
-  "name": "frontend-boilerplate-alpine-tailwind",
+  "name": "alpine-tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd app-frontend && npm i",
-    "start": "cd app-frontend && npm run start"
+    "start": "http-server"
   },
   "keywords": [],
   "author": "Alva Labs",
   "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.12.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "http-server": "^14.1.1"
   }
 }
